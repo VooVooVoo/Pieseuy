@@ -3,7 +3,10 @@
  */
 public class Jerry extends PiesBase implements Pies {
 
-
+    int age = 12;
+    String race = "German Shepherd";
+    String name = "Jerry";
+    String nick = "Jerrito";
 
     public Jerry() {
         age = 12;
@@ -11,7 +14,6 @@ public class Jerry extends PiesBase implements Pies {
         race = "German Shepherd";
         nick = "Jerrito";
     }
-
     public void bark() {
         System.out.println("This is how I bark:");
         System.out.println("Woof! Woof!");
@@ -46,8 +48,8 @@ public class Jerry extends PiesBase implements Pies {
 
     }
 
-
-    public void dogsPlay(Object Pies) {
+    @Override
+    public void playWith(Object Pies) {
 
     }
 }

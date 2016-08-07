@@ -44,9 +44,9 @@ public class Oro extends PiesBase implements Pies{
     }
 
 
-    public void dogsPlay(Object Pies) {
-        System.out.println(name  + " ciągnie " + Pies + " za ucho!");
-        System.out.println(Pies + " gryzie " + name + " w ogon!");
+    public void playWith(Pies pies) {
+        System.out.println(name  + " ciągnie " + pies + " za ucho!");
+        System.out.println(pies + " gryzie " + name + " w ogon!");
 
     }
 }

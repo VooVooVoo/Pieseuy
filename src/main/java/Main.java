@@ -10,7 +10,7 @@ public class Main {
 
 
 
- pies3.dogsPlay(pies1);
+ pies3.playWith(pies1);
 
 
 

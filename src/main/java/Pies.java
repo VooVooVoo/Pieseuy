@@ -11,5 +11,5 @@ public interface Pies {
     void pacPac();
     void eat();
     void cuddle();
-    void dogsPlay(Object Pies);
+    void playWith(Pies pies);
 }
