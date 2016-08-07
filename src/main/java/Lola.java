@@ -46,7 +46,7 @@ public class Lola extends PiesBase implements Pies {
     }
 
 
-    public void dogsPlay(Object Pies) {
+    public void playWith(Object Pies) {
 
     }
 }
