@@ -3,10 +3,14 @@
  */
 public class Jerry extends PiesBase implements Pies {
 
-    int age = 12;
-    static String race = "German Shepherd";
-    static String name = "Jerry";
-    static String nick = "Jerrito";
+
+
+    public Jerry() {
+        age = 12;
+        name = "Jerry";
+        race = "German Shepherd";
+        nick = "Jerrito";
+    }
 
     public void bark() {
         System.out.println("This is how I bark:");

@@ -3,11 +3,12 @@
  */
 public class Oro extends PiesBase implements Pies{
 
-    int age = 6;
-    String name = "Oro";
-    String race = "Mongrel";
-    String nick = "Oreo";
-
+    public Oro() {
+        age = 6;
+        name = "Oro";
+        race = "Mongrel";
+        nick = "Oreo";
+    }
 
     public void bark() {
         System.out.println("This is how I bark:");

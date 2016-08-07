@@ -10,7 +10,7 @@ public class Main {
 
 
 
- pies3.dogsPlay(Lola.name);
+ pies3.dogsPlay(pies1);
 
 
 

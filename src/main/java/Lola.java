@@ -3,11 +3,13 @@
  */
 public class Lola extends PiesBase implements Pies {
 
-    int age = 4;
-    static String race = "Labrador";
-    static String name = "Lola";
-    static String nick = "Lolito";
 
+    public Lola() {
+        age = 4;
+        name = "Lola";
+        race = "Labrador";
+        nick = "Lolito";
+    }
 
     public void bark() {
         System.out.println("This is how I bark:");
